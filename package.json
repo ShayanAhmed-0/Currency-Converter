@@ -1,6 +1,6 @@
 {
   "name": "shayancurrencyconverterr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Currency Converter App in CLI",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
