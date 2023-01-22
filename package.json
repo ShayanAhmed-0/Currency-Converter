@@ -1,0 +1,38 @@
+{
+  "name": "shayancurrencyconverterr",
+  "version": "1.0.0",
+  "description": "Currency Converter App in CLI",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShayanAhmed-0/Currency-Converter.git"
+  },
+  "keywords": [
+    "Currency converter in TS",
+    "Currency converter",
+    "TypeScript"
+  ],
+  "author": "Shayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShayanAhmed-0/Currency-Converter/issues"
+  },
+  "homepage": "https://github.com/ShayanAhmed-0/Currency-Converter#readme",
+  "files": [
+    "lib/**/*"
+  ],
+  "bin": "./lib/index.js",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
+}
